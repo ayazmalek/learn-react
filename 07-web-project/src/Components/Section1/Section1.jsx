@@ -1,13 +1,15 @@
 import React from 'react'
 import Navbar from './Navbar'
-import Page1content from './Page1content'
-const section1 = () => {
+import Page1Content from './Page1Content'
+import 'remixicon/fonts/remixicon.css'
+
+const Section1 = () => {
   return (
-    <div >
-      <Navbar />
-      <Page1content/>
+    <div className='h-screen w-full '>
+        <Navbar />
+        <Page1Content  />
     </div>
   )
 }
 
-export default section1
+export default Section1
