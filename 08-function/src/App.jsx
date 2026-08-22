@@ -1,7 +1,7 @@
 const App = () => {
 
-  const pageScrolling =(down)=>{
-if(down>0){
+  const pageScrolling =(e)=>{
+if(e>0){
   console.log("down direction");
   
 }else{
@@ -31,8 +31,8 @@ console.log(elem.target.value);
         }} type="text" placeholder="enter info" />
         <button type="submit">Submit</button>
       </form>
-      <div onWheel={(down)=>{
- pageScrolling(down.deltaY)
+      <div onWheel={(e)=>{
+ pageScrolling(e.deltaY)
       }
             
       }>
