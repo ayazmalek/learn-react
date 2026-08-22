@@ -20,11 +20,12 @@ if(e>0){
         Click me
       </button>
 
-   <form onSubmit={function(){
-    
-    console.log('form submitted');
-    
-   }}>
+<form
+  onSubmit={function(e) {
+    e.preventDefault();
+    console.log("form submitted");
+  }}
+>
         <input onChange={function(elem){
 console.log(elem.target.value);
 
