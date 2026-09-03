@@ -6,6 +6,7 @@ import Inputuse  from "./components/Inputuse"
 import Charactercounter from "./components/Charactercounter"
 import Like from "./components/Like"
 import Counter from "./Counter"
+import Cart from "./components/Cart"
 const App = () => {
 
     
@@ -19,6 +20,7 @@ const App = () => {
   <Inputuse />
   <Charactercounter/>
   <Like/>
+  <Cart />
     </div>
   )
 }
