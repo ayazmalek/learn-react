@@ -17,8 +17,8 @@ const Cart = () => {
         Add Laptop
       </button>
 
-      <button onClick={() => addItem({ id: 2, name: "Mouse" })}>
-        Add Mouse
+      <button onClick={() => addItem({ id: 2, name: "cpu" })}>
+        Add cpu
       </button>
 
       {cart.map((item) => (
